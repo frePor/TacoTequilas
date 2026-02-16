@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taco Tequilas | Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tacos.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="container nav-layout">
+            <a class="brand" href="index.html">Taco Tequilas</a>
+            <nav aria-label="Primary">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html" aria-current="page">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="story.html">Story</a></li>
+                    <li><a href="visit.html">Visit</a></li>
+                </ul>
+            </nav>
+            <button class="sidebar-toggle" type="button" aria-controls="site-sidebar" aria-expanded="false" aria-label="Open menu">
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+            </button>
+        </div>
+    </header>
+    <div class="sidebar-backdrop" hidden></div>
+    <aside id="site-sidebar" class="sidebar" aria-label="Mobile navigation menu" hidden>
+        <div class="sidebar-inner">
+            <button class="sidebar-close" type="button" aria-label="Close menu">&times;</button>
+            <p class="sidebar-title">Taco Tequilas</p>
+            <nav aria-label="Mobile">
+                <ul class="sidebar-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html" aria-current="page">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="story.html">Story</a></li>
+                    <li><a href="visit.html">Visit</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <main id="main-content" class="page-main">
+        <section class="page-intro container" aria-labelledby="menu-title">
+            <h1 id="menu-title">Menu</h1>
+            <p>This page is intentionally simple so you can customize categories, prices, and descriptions to match your full menu.</p>
+        </section>
+
+        <section class="content-section container" aria-label="Sample menu categories">
+            <div class="content-grid">
+                <article class="content-card">
+                    <h2>Tacos</h2>
+                    <ul>
+                        <li>Al Pastor Taco - Add your price</li>
+                        <li>Carne Asada Taco - Add your price</li>
+                        <li>Veggie Taco - Add your price</li>
+                    </ul>
+                </article>
+                <article class="content-card">
+                    <h2>Tequilas & Cocktails</h2>
+                    <ul>
+                        <li>House Margarita - Add your price</li>
+                        <li>Paloma - Add your price</li>
+                        <li>Tequila Flight - Add your price</li>
+                    </ul>
+                </article>
+                <article class="content-card">
+                    <h2>Favorites</h2>
+                    <ul>
+                        <li>Street Corn - Add your price</li>
+                        <li>Guacamole & Chips - Add your price</li>
+                        <li>Churros - Add your price</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p class="footer-brand">Taco Tequilas</p>
+            <a class="button button-secondary" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Taco Tequilas on Facebook">Facebook</a>
+        </div>
+    </footer>
+    <script src="./tacos.js" defer></script>
+</body>
+</html>

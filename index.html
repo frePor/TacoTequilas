@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taco Tequilas | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tacos.css">
+    <script src="./tacos.js" defer></script>
+</head>
+<body class="page-home">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="container nav-layout">
+            <a class="brand" href="index.html">Taco Tequilas</a>
+            <nav aria-label="Primary">
+                <ul class="nav-links">
+                    <li><a href="index.html" aria-current="page">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="story.html">Story</a></li>
+                    <li><a href="visit.html">Visit</a></li>
+                </ul>
+            </nav>
+            <button class="sidebar-toggle" type="button" aria-controls="site-sidebar" aria-expanded="false" aria-label="Open menu">
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+            </button>
+        </div>
+    </header>
+    <div class="sidebar-backdrop" hidden></div>
+    <aside id="site-sidebar" class="sidebar" aria-label="Mobile navigation menu" hidden>
+        <div class="sidebar-inner">
+            <button class="sidebar-close" type="button" aria-label="Close menu">&times;</button>
+            <p class="sidebar-title">Taco Tequilas</p>
+            <nav aria-label="Mobile">
+                <ul class="sidebar-links">
+                    <li><a href="index.html" aria-current="page">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="story.html">Story</a></li>
+                    <li><a href="visit.html">Visit</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <main id="main-content">
+        <section class="hero" aria-labelledby="hero-title">
+            <img class="hero-image" src="/images/heroImage.jpg" alt="Tacos, salsas, and cocktails on a dining table.">
+            <div class="hero-overlay container">
+                <p class="eyebrow">Authentic Mexican Flavor</p>
+                <h1 id="hero-title">Welcome to Taco Tequilas</h1>
+                <p class="hero-text">Outdoor seating • Dine-in • In-store pickup </p>
+                <a class="button button-primary" href="menu.html">Explore the Menu</a>
+            </div>
+        </section>
+
+        <section class="visit-us-section container" aria-labelledby="visit-us-title">
+            <div class="section-header">
+                <h2 id="visit-us-title">Visit Us</h2>
+                <p></p>
+            </div>
+            <div class="map-grid">
+                <article class="map-card">
+                    <h3>Terre Haute, IN</h3>
+                    <p>423 Wabash Ave, Terre Haute, IN 47807</p>
+                    <iframe title="Map for Taco Tequilas Terre Haute, IN location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6408.92571745698!2d-87.41168139999999!3d39.4662898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886d652fc4c24575%3A0x9c265cbd0d8c6b3a!2sTaco%20Tequila&#39;s!5e1!3m2!1sen!2sus!4v1770823306480!5m2!1sen!2sus" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </article>
+                <article class="map-card">
+                    <h3>Clinton, IN</h3>
+                    <p>1783 IN-163 G, Clinton, IN 47842</p>
+                    <iframe title="Map for Taco Tequilas Clinton, IN location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3195.670500604338!2d-87.432565!3d39.656841799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886d5d1f8ae21189%3A0x3dc6c5200b9c541b!2sTaco%20tequilas%20In%20Clinton!5e1!3m2!1sen!2sus!4v1770823676760!5m2!1sen!2sus" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p class="footer-brand">Taco Tequilas</p>
+            <a class="button button-secondary" href="https://www.facebook.com/TacoTequilaTH" target="_blank" rel="noopener noreferrer" aria-label="Visit Taco Tequilas on Facebook">Facebook</a>
+        </div>
+    </footer>
+</body>
+</html>

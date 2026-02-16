@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taco Tequilas | Visit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tacos.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="container nav-layout">
+            <a class="brand" href="index.html">Taco Tequilas</a>
+            <nav aria-label="Primary">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="story.html">Story</a></li>
+                    <li><a href="visit.html" aria-current="page">Visit</a></li>
+                </ul>
+            </nav>
+            <button class="sidebar-toggle" type="button" aria-controls="site-sidebar" aria-expanded="false" aria-label="Open menu">
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+            </button>
+        </div>
+    </header>
+    <div class="sidebar-backdrop" hidden></div>
+    <aside id="site-sidebar" class="sidebar" aria-label="Mobile navigation menu" hidden>
+        <div class="sidebar-inner">
+            <button class="sidebar-close" type="button" aria-label="Close menu">&times;</button>
+            <p class="sidebar-title">Taco Tequilas</p>
+            <nav aria-label="Mobile">
+                <ul class="sidebar-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="story.html">Story</a></li>
+                    <li><a href="visit.html" aria-current="page">Visit</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <main id="main-content" class="page-main">
+        <section class="page-intro container" aria-labelledby="visit-title">
+            <h1 id="visit-title">Visit Taco Tequilas</h1>
+            <p>Edit this page with your final addresses, reservation links, and local contact details.</p>
+        </section>
+
+        <section class="content-section container" aria-label="Visit details">
+            <div class="details-grid">
+                <article class="details-card">
+                    <h2>Contact</h2>
+                    <p><strong>Phone:</strong> (000) 000-0000</p>
+                    <p><strong>Email:</strong> hello@tacotequilas.com</p>
+                    <p><strong>Downtown:</strong> 123 Fiesta Avenue, Chicago, IL</p>
+                    <p><strong>Riverside:</strong> 456 Agave Street, Chicago, IL</p>
+                </article>
+                <aside class="hours-card">
+                    <h2>Hours</h2>
+                    <ul class="hours-list">
+                        <li>Monday - Thursday: 11:00 AM - 10:00 PM</li>
+                        <li>Friday: 11:00 AM - 11:00 PM</li>
+                        <li>Saturday: 10:00 AM - 11:00 PM</li>
+                        <li>Sunday: 10:00 AM - 9:00 PM</li>
+                    </ul>
+                </aside>
+            </div>
+
+            <div class="map-grid">
+                <article class="map-card">
+                    <h3>Downtown Location</h3>
+                    <p>123 Fiesta Avenue, Chicago, IL</p>
+                    <iframe title="Map for Taco Tequilas Downtown location on Visit page" src="https://www.google.com/maps?q=Chicago+Loop&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </article>
+                <article class="map-card">
+                    <h3>Riverside Location</h3>
+                    <p>456 Agave Street, Chicago, IL</p>
+                    <iframe title="Map for Taco Tequilas Riverside location on Visit page" src="https://www.google.com/maps?q=Navy+Pier+Chicago&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p class="footer-brand">Taco Tequilas</p>
+            <a class="button button-secondary" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Taco Tequilas on Facebook">Facebook</a>
+        </div>
+    </footer>
+    <script src="./tacos.js" defer></script>
+</body>
+</html>
