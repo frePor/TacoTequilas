@@ -302,11 +302,11 @@ p {
 
 .button-secondary {
     background: var(--color-accent);
-    color: #ffffff;
+    color: #000000;
 }
 
 .button-secondary:hover {
-    background: #12542f;
+    background: #000000;
 }
 
 .visit-us-section,
@@ -374,6 +374,22 @@ p {
     letter-spacing: 0.04em;
 }
 
+.footer-social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-social-icon {
+    width: 52px;
+    height: 52px;
+}
+
+.facebook-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
 .page-main {
     padding-top: 0.6rem;
 }
