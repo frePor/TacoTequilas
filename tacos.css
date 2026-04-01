@@ -431,6 +431,14 @@ p {
         radial-gradient(circle at 25% 20%, rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0));
 }
 
+.gallery-photo {
+    width: 100%;
+    min-height: 190px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+
 .gallery-card figcaption {
     margin-top: 0.65rem;
     font-weight: 600;
